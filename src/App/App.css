@@ -1,0 +1,10 @@
+.landing_page {
+  margin: 4rem auto;
+}
+
+.login__Card {
+  margin: 5rem auto;
+  width: 25rem;
+  max-width: 90%;
+  height: auto;
+}

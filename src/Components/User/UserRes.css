@@ -1,0 +1,29 @@
+#user__output {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#user__output h1 {
+  color: red;
+  text-decoration: underline;
+  user-select: none;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.smile {
+  transform: scale(2.5);
+  color: #f1d42b;
+}
+
+@media (max-width: 450px) {
+  #user__output h1 {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+
+  .smile {
+    transform: scale(1);
+  }
+}
